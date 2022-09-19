@@ -1,15 +1,19 @@
-Accessibility testing tutorial demo app
+# Accessibility testing with Cypress
 
-### Set up instructions.
+## Set up instructions.
 
 ### 1. Clone app and install dependencies.
 ```bash
-git clone https://github.com/Dev-Elie/Accessibility_Testing.git
-cd Accessibility_Testing
+# Clone repository
+git clone https://github.com/mwaz/accessibility-testing-with-cypress.
+
+# CD into the directory 
+cd accessibility-testing-with-cypress
+
+# Install dependencies 
 npm install
 ```
 
-#### 2. Start server
+### 2. Start server
 
-`npm start`
-
+> npm start
