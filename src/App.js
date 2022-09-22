@@ -1,11 +1,11 @@
 function App() {
   return (
-    <div className="row">
-        <div className="col-md-5 mx-auto">
-            <form className="m-4">
+    <div className="row" role="application"> {/* In this opening div add; role="application" */}
+        <div className="col-md-5 mx-auto" role="document"> {/* In this opening div add; add role="document" */}
+            <form className="m-4"> {/*In the form tag add; role="none" */}
               <img src="/logo.png" alt="" width="50%" className="d-block mx-auto mb-4"/>
                 <div className="mb-3">
-                    <h3 className="h3 mb-3 font-weight-normal text-center">Create an account</h3> {/* Use h1 instead of h3 tags */}
+                    <h1 className="h3 mb-3 font-weight-normal text-center">Create an account</h1> {/* Use h1 instead of h3 tags */}
                 </div>
                 <div className="mb-3">
                     <label for="exampleInputEmail1" className="form-label">Email address</label>
@@ -13,11 +13,11 @@ function App() {
                 </div>
                 <div className="mb-3">
                     <label for="exampleInputPassword1" className="form-label">Password</label> 
-                    <input type="password" className="form-control" id="exampleInputPassword2"/> {/* change exampleInputPassword2 to exampleInputPassword1 */}
+                    <input type="password" className="form-control" id="exampleInputPassword1"/> {/* change exampleInputPassword2 to exampleInputPassword1 */}
                 </div>
                 <div className="mb-3">
                     <label for="exampleInputPassword2" className="form-label">Confirm Password</label>
-                    <input type="password" className="form-control" id="exampleInputPassword"/> {/* change exampleInputPassword to exampleInputPassword2 */}
+                    <input type="password" className="form-control" id="exampleInputPassword2"/> {/* change exampleInputPassword to exampleInputPassword2 */}
                 </div>
                 <label for="form-check-label" className="form-check-label mb-3">I agree to the  <a href="/">terms and conditions</a> </label>
                 <div className="form-check">
@@ -32,7 +32,7 @@ function App() {
                         No
                     </label>
                 </div>
-                <button type="submit" className="btn btn-primary text-primary">Submit</button> {/* delete text-primary */}
+                <button type="submit" className="btn btn-primary">Submit</button> {/* delete text-primary */}
             </form>
         </div>
 
